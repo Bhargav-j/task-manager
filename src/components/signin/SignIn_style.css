@@ -1,16 +1,25 @@
-.mainContainer {
-  flex-direction: column;
+.mainContainer{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw
+  width: 100vw;
+}
+
+.loginContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  padding-block: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .titleContainer {
   display: flex;
   flex-direction: column;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: bolder;
   align-items: center;
   justify-content: center;
@@ -37,7 +46,7 @@
 .historyItem {
   flex-direction: row;
   display: flex;
-  width: 400px;
+  /* width: 400px; */
   align-items: center;
   justify-content: space-between;
 }
@@ -86,6 +95,7 @@
   display: flex;
   flex-direction: row;
   height: 48px;
+  gap: 10px;
   width: 400px;
   justify-content: space-around;
 }
@@ -101,3 +111,18 @@
 .inputlogin .inputButton:active{
   transform: translateY(4px);
 }
+
+@media only screen and (max-width: 720px){
+  .inputlogin{
+    width: 250px;
+  }
+  .inputContainer .inputBox{
+    width: 250px;
+  }
+  .titleContainer .window_close{
+    right: -4.5rem;
+  }
+  .titleContainer{
+    font-size: 2rem;
+  }
+} 
