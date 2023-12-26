@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bhargav-j/task-manager/static/css/main.0a9905d0.css",
+    "main.js": "/Bhargav-j/task-manager/static/js/main.dc93679d.js",
+    "static/media/bg.png": "/Bhargav-j/task-manager/static/media/bg.335c8773fa395ca1eb98.png",
+    "static/media/logo.png": "/Bhargav-j/task-manager/static/media/logo.855d5cca9dfe260345c7.png",
+    "index.html": "/Bhargav-j/task-manager/index.html",
+    "main.0a9905d0.css.map": "/Bhargav-j/task-manager/static/css/main.0a9905d0.css.map",
+    "main.dc93679d.js.map": "/Bhargav-j/task-manager/static/js/main.dc93679d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a9905d0.css",
+    "static/js/main.dc93679d.js"
+  ]
+}
